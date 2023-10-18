@@ -3,7 +3,7 @@
 
 import * as React from 'react'
 
-function Greeting({initialName = ''}) {
+function Greeting({initialName = 'Beringar default'}) {
   // 🐨 initialize the state to the value from localStorage
   // 💰 window.localStorage.getItem('name') ?? initialName
   const [name, setName] = React.useState(
