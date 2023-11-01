@@ -14,7 +14,7 @@ const Board = () => {
 
     const squaresCopy = [...squares]
     squaresCopy[square] = nextValue
-    setSquares([...squaresCopy])
+    setSquares(squaresCopy)
   }
 
   function restart() {
