@@ -36,6 +36,17 @@ https://micku7zu.github.io/vanilla-tilt.js/index.html
   min-height: 260px;
 }
 
+.game-board {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.game-history {
+  display: flex;
+  flex-direction: column;
+}
+
 .game ol,
 .game ul {
   padding-left: 30px;
