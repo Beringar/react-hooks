@@ -13,7 +13,7 @@ import {ErrorBoundary} from 'react-error-boundary'
 
 const PokemonInfo = ({pokemonName}) => {
   const [state, setState] = React.useState({
-    status: 'idle',
+    status: pokemonName ? 'pending' : 'idle',
     pokemon: null,
     error: null,
   })
